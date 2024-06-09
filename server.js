@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 3000;
 
 app.use('/translations', homeRoutes); 
 app.use('/', userRoutes);
