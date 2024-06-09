@@ -1,9 +1,10 @@
-import { Firestore } from '@google-cloud/firestore';
+import mysql from "mysql";
 
-async function storeData(collection, id, data) {
-    const db = new Firestore();
-    const collectionRef = db.collection(collection);
-    return collectionRef.doc(id).set(data);
-}
+const conn = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "inscriptie",
+});
 
-export default storeData;
+export default conn;
