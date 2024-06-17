@@ -1,7 +1,11 @@
 # API Documentation
 
 ## BASE URL
-The base URL for all endpoints is https://capstone-project-c241-pr566.et.r.appspot.com/
+The base URL : https://capstone-project-c241-pr566.et.r.appspot.com/
+
+## Authentication
+
+Authentication using JSON Web Tokens (JWT)
 
 ## Endpoints
 
